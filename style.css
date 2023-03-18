@@ -8,7 +8,7 @@
 }
 body{
     background-color: hsl(36, 100%, 99%);
-    padding: 80px 150px;
+    padding: 80px 250px;
 }
 
 header nav{
@@ -30,4 +30,17 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: hsl(5, 85%, 63%);
+}
+.sec-1{
+    display: flex;
+    gap: 30px;
+}
+.sec-1 .left{
+    width: 70%;
+}
+.sec-1 .left img{
+    width: 100%;
+}
+.sec-1 .right{
+    width: 30%;
 }
