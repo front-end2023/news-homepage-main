@@ -6,5 +6,5 @@ function openMenu(){
 function closeMenu(){
     document.getElementById("second_list").style.display = "none";
     document.getElementById("sub_list").style.width = "0";
-    document.getElementById("open-menu").style.display = "block";
+    document.getElementById("open-menu").style.display = "none";
 }
